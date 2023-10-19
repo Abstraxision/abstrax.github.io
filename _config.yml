@@ -109,7 +109,7 @@ assets:
 pwa:
   enabled: true # the option for PWA feature
 
-paginate: 10
+paginate: 1
 
 # The base URL of your site
 baseurl: abstraxision.github.io/abstraxision.pages.github.io/
@@ -156,11 +156,11 @@ defaults:
   - scope:
       path: assets/img/favicons
     values:
-      swcache: true
+      swcache: false
   - scope:
       path: assets/js/dist
     values:
-      swcache: true
+      swcache: false
 
 sass:
   style: compressed
